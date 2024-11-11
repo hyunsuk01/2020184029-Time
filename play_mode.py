@@ -35,6 +35,8 @@ def finish():
 
 def update():
     game_world.update()
+    #성능 낮은 PC모사
+    # delay(0.1)
 
 def draw():
     clear_canvas()
